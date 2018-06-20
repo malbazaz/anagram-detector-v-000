@@ -5,12 +5,12 @@ attr_accessor :word
 
 def initialize(word)
   @word = word
-  
+ @word_array = word.split("")
+  @sorted_word_array = word_array.sort  
 end 
 
 def match(array)
- 
-    array.each do |actual|
+ array.each do |actual|
       if actual.sort == sorted_word_array
         true 
         else 
@@ -18,4 +18,5 @@ def match(array)
       end 
     end 
 end 
+
 end 
