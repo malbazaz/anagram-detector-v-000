@@ -15,7 +15,7 @@ actual_array = actual.split("")
 if actual_array.sort == @word_array.sort
       return_array << actual 
         else 
-        false 
+        nil
       end 
     end 
 end 
