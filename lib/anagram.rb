@@ -16,6 +16,6 @@ def match(array)
         else 
         false 
       end 
-end 
+    end 
 end 
 end 
