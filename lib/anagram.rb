@@ -9,10 +9,11 @@ def initialize(word)
 end 
 
 def match(array)
+  return_array = []
  array.each do |actual|
 actual_array = actual.split("")
 if actual_array.sort == @word_array.sort
-        true 
+      return_array << actual 
         else 
         false 
       end 
