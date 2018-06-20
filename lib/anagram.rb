@@ -7,7 +7,7 @@ def initialize(word)
   @word = word
 end 
 
-def match(array)
+def self.match(array)
   word_array = word.split("")
   sorted_word_array = word_array.sort
     array.each do |actual|
