@@ -9,7 +9,7 @@ end
 
 def match(array)
 new_word = word.
-if array.include?
+if array.include?()
 
 end 
 
