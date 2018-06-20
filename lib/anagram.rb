@@ -8,7 +8,7 @@ def initialize(word)
  @word_array = word.split("")
 end 
 
-def match(array)
+def self.match(array)
  array.each do |actual|
 if actual.sort == word_array.sort
         true 
